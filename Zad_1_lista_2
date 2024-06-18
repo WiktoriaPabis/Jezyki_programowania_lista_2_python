@@ -363,5 +363,6 @@ class WielomianTest(unittest.TestCase):
         wynikMnozenia = wielomian1 * wielomian2
         self.assertEqual("W(x)= -2.0x^4-7.0x^3+4.0x^2", wynikMnozenia.TekstWielomian(), "Niepoprawny wynik mnożenia")
 
+
 if __name__ == "__main__":
     unittest.main()

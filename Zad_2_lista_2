@@ -647,6 +647,7 @@ class ProteinSequenceTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             proteinseq.findMotif("Byh")
 
+
 if __name__ == "__main__":
     unittest.main()
 
